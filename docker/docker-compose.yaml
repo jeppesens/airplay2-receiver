@@ -1,4 +1,3 @@
-version: '3.8'
 services:
  ap2:
    restart: unless-stopped
@@ -15,6 +14,6 @@ services:
    # devices:
    #  - "/dev/snd"
    environment: # All variables are optional.
-     - AP2HOSTNAME=Airplay2
+     - AP2HOSTNAME=Office Speaker
      - AP2IFACE=eth0
      - NO_VOLUME_MANAGEMENT=true

@@ -1,8 +1,8 @@
-FROM debian:buster
+FROM debian:bookworm
 
 RUN apt-get update -yy && \
     apt-get install -yy \
-        pkg-config \ 
+        pkg-config \
         avahi-daemon \
         avahi-discover \
         avahi-utils \
